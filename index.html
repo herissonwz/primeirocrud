@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>CRUD</title>
+</head>
+<body>
+    <div id ="container">
+       
+    <h1>PROJETO CRUD </h1>
+
+     
+       <form class="form-top">
+        <div id="input-box">
+        <div class="input">
+         <!-- <label for="name">Name</label> -->
+         <input type="text" placeholder="Enter name" name="name" id="name">
+        </div>
+        <div class="input">
+            <!-- <label for="email">Email</label> -->
+            <input type="text" placeholder="Enter Email" name="email" id="email"  autocomplete="none">
+            <span class="alert"></span>
+           </div>
+           <div class="input">
+            <!-- <label for="name">Name</label> -->
+            <input type="text" placeholder="Enter tel" name="tel" id="tel">
+           </div>
+       
+           <button id="add" type="submit">Add</button>
+           <button id="Update" type="submit">Update</button>
+        </div>
+          
+        </form>
+
+    <table>
+
+    <thead>
+      <tr>
+        <th>id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>telephone</th>
+        <th>actions</th>
+      </tr>
+    </thead>
+
+    <tbody id ="table-body">
+        <!-- <tr>
+            <td class="id">1</td>
+            <td class="name">Ana Silva</td>
+            <td class="email">ana.silva@email.com</td>
+            <td class="tel">(11) 1234-5678</td>
+            <td class="flex">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </td>
+           
+        </tr> -->
+     
+    </tbody>
+
+      
+
+    </table>
+   
+ 
+   
+</div>
+    
+</body>
+</html>
